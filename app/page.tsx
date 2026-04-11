@@ -94,6 +94,11 @@ export default function HomePage() {
         )}
         {data && <ResultDashboard user1={data.user1} user2={data.user2} />}
       </div>
+      <footer className="border-t py-6 text-center text-sm text-muted-foreground">
+        <div className="container max-w-7xl mx-auto px-4">
+          <span className="font-medium">DevImpact</span> — Compare GitHub developer metrics
+        </div>
+      </footer>
     </main>
   );
 }
